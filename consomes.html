@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>consume</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="format-detection" content="telephone=no, email=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+    <link rel="stylesheet" href="css/base1.css">
+    <link rel="stylesheet" href="css/consomes.css">
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/angular.min.js"></script>
+    <script src="js/consome.js"></script>
+</head>
+<body>
+<div ng-app="app" ng-controller="myCtrl">
+    <header>
+        <a href="account.html" class="back"></a>
+        <h1>消费详情 <i class="down"></i><input type="checkbox" class="check" ng-model="checked" ng-click="check()"></h1>
+    </header>
+    <div class="main">
+        <div class="head"><span>2016年</span>&nbsp; <span>本月</span></div>
+        <ul>
+            <li ng-repeat="item in users">
+                <a href="accountOne.html">
+                    <div class="left">
+                        <span class="{{item.class}}"></span>
+                        <div class="content">
+                            <p>
+                                <span>{{ item.name}}</span>
+                                <span>{{ item.title}}</span>
+                            </p>
+                            <p>
+                                <span>{{item.data}}</span>
+                                <span>{{item.time}}</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <span>-1</span>条
+                    </div>
+                </a>
+            </li>
+        </ul>
+        <div class="head"><span>2016年</span>&nbsp; <span>本月</span></div>
+        <ul>
+            <li ng-repeat="item in users">
+                <a href="#">
+                    <div class="left">
+                        <span class="{{item.class}}"></span>
+                        <div class="content">
+                            <p>
+                                <span>{{ item.name}}</span>
+                                <span>{{ item.title}}</span>
+                            </p>
+                            <p>
+                                <span>{{item.data}}</span>
+                                <span>{{item.time}}</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <span>-1</span>条
+                    </div>
+                </a>
+            </li>
+        </ul>
+        <div class="head"><span>2016年</span>&nbsp; <span>本月</span></div>
+        <ul>
+            <li ng-repeat="item in users">
+                <a href="#">
+                    <div class="left">
+                        <span class="{{item.class}}"></span>
+                        <div class="content">
+                            <p>
+                                <span>{{ item.name}}</span>
+                                <span>{{ item.title}}</span>
+                            </p>
+                            <p>
+                                <span>{{item.data}}</span>
+                                <span>{{item.time}}</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <span>-1</span>条
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="slideDown " ng-show="checked">
+        <div class="con">
+            <div class="account">
+                <a href="#">全部账户</a>
+            </div>
+            <div class="title">
+                <span></span>
+                <h6>应用</h6>
+                <span></span>
+            </div>
+            <div class="list">
+                <ul class="clearfix">
+                    <li><a href="#">天天消消乐</a></li>
+                    <li><a href="#">大话西游</a></li>
+                    <li><a href="#">王者荣耀</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+@charset "UTF-8";
+* { margin: 0; padding: 0; box-sizing: border-box; list-style: none; font-family: "微软雅黑"; }
+
+a { text-decoration: none; }
+
+nav { width: 100%; height: 2rem; display: flex; justify-content: space-between; padding: 0 0.7rem; background: linear-gradient(#ec7703, #f38b04); align-items: center; }
+nav span { font-size: .6rem; }
+nav span a { color: white; }
+
+@font-face { font-family: "fontawesome-webfont"; src: url(../font-awesome/fonts/fontawesome-webfont.ttf); font-weight: normal; font-style: normal; }
+.banner { width: 100%; }
+.banner img { width: 100%; }
+
+.input { width: 100%; padding: 0 0.7rem; margin-top: 2rem; }
+.input .inp { width: 100%; position: relative; margin-top: .75rem; }
+.input .inp input { width: 100%; height: 1.5rem; border-top: 0; border-left: 0; border-right: 0; border-bottom: 1px solid #eeeeee; padding: 0 0 0.7rem 1rem; outline: none; }
+.input .inp span { position: absolute; top: .3rem; left: 0; color: #c6c5ca; }
+
+.login { width: 100%; display: flex; justify-content: center; align-items: center; height: 2.2rem; background: #ffc830; font-size: 0.75rem; color: white; border-radius: 20px; }
+
+.btn_box { display: inline-block; width: 100%; padding: 0 0.7rem; margin-top: 1.5rem; }
+
+.btn2 { display: inline-block; width: 100%; text-align: center; position: fixed; bottom: .7rem; font-size: .3rem; color: #ffc830; }
+
+/*# sourceMappingURL=login.css.map */

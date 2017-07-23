@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" href="css/base2.css" />
+		<link rel="stylesheet" href="css/personal.css" />
+        <style>
+        
+        </style>
+	
+	<body>
+		<div class="personal_header">
+			<header>
+				
+					<p>
+						个人资料
+					</p>
+				
+				<div class="personal_header_bottom">
+					
+					<div class="personal_header_bottom_left">
+						
+					</div>
+					<span>SZ1049<br/><img src="img/my.jpg" height="17" width="54"/></span>
+					
+					<button style="height:24px; width: 73px;">未认证</button>
+				</div>
+			</header>
+		</div>
+		<section>
+		<div class="personal_content_1">
+			<p>完善个人资料可享受更多闪注优惠</p>
+		</div>
+		<div class="personal_content_2">
+			<ul>
+				<li style="margin-right: 7.6rem;">Email</li>
+				
+				<li><a href="#">未添加邮箱 ></a></li>
+			</ul>
+		</div>
+		
+		<div class="personal_content_2">
+			<ul>
+				<li style="margin-right:9rem;">联系人</li>
+				
+				<li><a href="#">高天少 ></a></li>
+			</ul>
+		</div>
+		
+		<div class="personal_content_2">
+			<ul>
+				<li style="margin-right:5.2rem;">
+					手机号码</li>
+				
+				<li><a href="#">15993005010 ></a></li>
+			</ul>
+		</div>
+		
+		<div class="personal_content_2">
+			<ul>
+				<li style="margin-right:3rem;">
+					身份证正面</li>
+				
+				<li><a href="#">未上传身份证信息 ></a></li>
+			</ul>
+		</div>
+		
+		<div class="personal_content_2">
+			<ul>
+				<li style="margin-right:3rem;">
+					身份证背面</li>
+				
+				<li><a href="#">未上传身份证信息 ></a></li>
+			</ul>
+		</div>
+		
+		<div class="personal_content_3">
+		<a href="xi.html"><input type="button" value="提交审核"/></a>
+		</div>
+		</section>
+		
+		
+		<div class="alert_bgg">
+			<div class="alert_content">
+				<div class="photo">
+					<a href="#">拍照</a>
+				</div>
+				<div class="album">
+					<a href="#">从相册中选择</a>
+				</div>
+				<div class="cancel">
+					<a href="personal.html">取消</a>
+				</div>
+			</div>
+			
+		</div>
+		<script src="js/jquery-3.1.1.min.js"></script>
+		<script type="text/javascript">
+			$(".personal_header_bottom_left").click(function(){
+				$(".alert_bgg").show();
+				$(".alert_content").slideToggle();
+			})
+			$(".alert_bgg").click(function(){
+				$(".alert_bgg").hide();
+			})
+		</script>
+	</body>
+</html>

@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: white; }
+
+header {
+  width: 100%;
+  background: #FFAC2C;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url(../img/tutu.jpg); }
+  header a{
+  		color: white;
+  		font-size: 1.6rem;
+  		margin-left: 1rem;
+  }
+  header p {
+    text-align: center;
+    line-height: 4.2rem;
+    font-size: 18px;
+    color: white; }
+
+.personal_content_1 {
+  height: 2.6rem;
+  width: 100%;
+  background: #F5F5F5;
+  text-align: center; }
+  .personal_content_1 p {
+    line-height: 2.6rem;
+    font-size: 0.8rem;
+    color: #BCBCBC; }
+
+.personal_content_2 {
+  width: 100%; }
+  .personal_content_2 p {
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    color: #6D6D6D; }
+
+.personal_content_3 {
+  width: 90%;
+  background: #FACD89;
+  height: 5.6rem;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  border-radius: 0.3rem; }
+
+/*# sourceMappingURL=guanfang.css.map */

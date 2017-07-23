@@ -1,0 +1,67 @@
+.header {
+  width: 100%;
+  height: 2rem;
+  background: #ffac2c;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+  .header .header-a {
+    width: 92%;
+    height: 100%;
+    background: #ffac2c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .header .header-a .back {
+      width: 2.7rem;
+      height: 2.05rem;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .header .header-a .back a {
+        color: white; }
+    .header .header-a p {
+      font-size: 0.8rem;
+      color: white; }
+
+.content .appli {
+  display: flex;
+  justify-content: space-around;
+  padding: 0.95rem 0rem; }
+  .content .appli .inp{
+  	width: 50%;
+  	height: 10%;
+  	position: absolute;
+  	left: -2rem;
+  	z-index: 999;
+  	opacity: 0;
+  }
+  .content .appli img {
+    width: 2.75rem;
+    height: 2.75rem; }
+  .content .appli .nam {
+    width: 10.675rem; }
+    .content .appli .nam .h3 {
+      font-size: 0.8rem;
+      color: #FFAC2C; }
+      .content .appli .nam .h3 span {
+        margin-left: 0.6rem;
+        color: #666;
+        font-size: 0.3rem; }
+    .content .appli .nam .jing {
+      margin-top: 0.45rem;
+      line-height: 0.95rem;
+      color: #6b6b6b; }
+.content .message {
+  width: 91%;
+  background: #f5f5f5;
+  padding: 0.375rem 0.7rem; }
+  .content .message p {
+    line-height: 1.5rem;
+    color: #b0b0b0; }
+  .content .message .orange {
+    color: #ffac2c; }
+    .content .message .orange span {
+      margin-left: 2.4rem; }
+
+/*# sourceMappingURL=use.css.map */

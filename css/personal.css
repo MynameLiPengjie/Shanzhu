@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #F5F5F5; }
+
+.personal_header header {
+  width: 100%;
+  background: #FFAC2C;
+  background-image: url(../img/tutu.jpg); }
+  .personal_header header p {
+    text-align: center;
+    line-height: 4.2rem;
+    font-size: 18px;
+    color: white; }
+  .personal_header header .personal_header_bottom {
+    height: 4.2rem;
+    width: 100%;
+    background: orange;
+    background-image: url(../img/tutu.jpg); }
+    .personal_header header .personal_header_bottom .personal_header_bottom_left {
+      height: 3.2rem;
+      width: 3.2rem;
+      border-radius: 50%;
+      border: 2px solid white;
+      margin-left: 2rem;
+      background-image: url(../img/logo.jpg); }
+    .personal_header header .personal_header_bottom span {
+      position: relative;
+      left: 6rem;
+      bottom: 2.4rem;
+      font-size: 1rem;
+      color: white; }
+    .personal_header header .personal_header_bottom button {
+      background-color: rgba(255, 255, 255, 0.5);
+      border-radius: 0.3rem;
+      border: 1px solid rgba(255, 255, 255, 0.5);
+      position: relative;
+      left: 11.6rem;
+      bottom: 3rem; }
+
+.personal_content_1 {
+  height: 2.8rem;
+  width: 100%; }
+  .personal_content_1 p {
+    line-height: 2.8rem;
+    font-size: 0.8rem;
+    color: lightgray;
+    margin-left: 2rem; }
+
+.personal_content_2 {
+  height: 3rem;
+  width: 100%;
+  border: 1px solid lightgray;
+  background: white; }
+  .personal_content_2 ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-around; }
+    .personal_content_2 ul li {
+      line-height: 3rem;
+      font-size: 0.9rem;
+      color: black; }
+      .personal_content_2 ul li a {
+        color: lightgray; }
+
+.personal_content_3 {
+  margin-left: 1rem;
+  margin-top: 1.2rem; }
+  .personal_content_3 input {
+    height: 2.4rem;
+    width: 96%;
+    border-radius: 0.3rem;
+    border: 1px solid orange;
+    background: orange;
+    color: white;
+    font-size: 1rem; }
+
+/*# sourceMappingURL=personal.css.map */
+.alert_bgg{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.6);
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+.alert_bgg .alert_content{
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	display: none;
+}
+.alert_bgg .alert_content .photo{
+	width: 100%;
+	height:2rem;
+	background: white;
+	border-bottom: 1px solid #E2E2E2;
+	text-align: center;
+	line-height: 2rem;
+	font-size: 0.79rem;
+}
+.alert_bgg .alert_content .album{
+	width: 100%;
+	height:2rem;
+	background: white;
+	border-bottom: 1px solid #E2E2E2;
+	text-align: center;
+	line-height: 2rem;
+	font-size: 0.79rem;
+}
+.alert_bgg .alert_content .cancel{
+	width: 100%;
+	height: 2rem;
+	background: white;
+	border-bottom: 1px solid #E2E2E2;
+	text-align: center;
+	line-height: 2rem;
+	font-size: 0.79rem;
+}
+.alert_bgg .alert_content .cancel a{
+	color: #FFA213;
+	
+}

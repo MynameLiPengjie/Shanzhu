@@ -1,0 +1,77 @@
+.header {
+  width: 100%;
+  height: 2rem;
+  background: #f95929;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+  .header .header-a {
+    width: 92%;
+    height: 100%;
+    background: #f95929;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .header .header-a .back {
+      width: 0.45rem;
+      height: 2.05rem;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+    .header .header-a p {
+      font-size: 0.8rem;
+      color: white; }
+
+.banner {
+  width: 100%;
+  height: 3.6rem; }
+  .banner img {
+    width: 100%;
+    height: 100%; }
+
+.content {
+  width: 100%; }
+  .content .application {
+    width: 100%;
+    background: #f5f5f5;
+    padding: 0.5rem 0rem;
+    color: #9b9b9b; }
+    .content .application p {
+      margin-left: 0.9rem; }
+    .content .application .yong {
+      color: red; }
+  .content .password {
+    width: 100%;
+    background: white;
+    display: flex;
+    justify-content: center; }
+    .content .password .pass-a {
+      width: 95%;
+      display: flex;
+      justify-content: space-between;
+      padding: 0.5rem 0rem;
+      border-bottom: 1px solid #f0f0f0; }
+      .content .password .pass-a p {
+        font-size: 0.6rem; }
+        .content .password .pass-a p span {
+          color: red; }
+        .content .password .pass-a p img {
+          width: 0.35rem;
+          height: 0.6rem; }
+      .content .password .pass-a .sdk {
+        color: #8a8a8a; }
+
+.btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 0.8rem; }
+  .btn button {
+    width: 95%;
+    height: 1.55rem;
+    background: #fed555;
+    border: 0px;
+    border-radius: 5px;
+    color: white; }
+
+/*# sourceMappingURL=new-use.css.map */

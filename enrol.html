@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>注册量</title>
+		<link rel="stylesheet" href= "fonts/css/font-awesome.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/enrol.css"/>
+		<script src="js/main.js"></script>
+	</head>
+	<body>
+		<div class="header_en">
+			<a href="home.html">
+				<span class="fa fa-angle-left"></span>
+			</a>
+			<div class="head_con">
+				<span id="zhu">注册量统计</span>
+				<span class="fa fa-caret-down"></span>
+			</div>
+			<span></span>
+		</div>
+		<div class="content_en">
+			<div class="pic">
+				<img src="img/lo.png"/>
+			</div>
+			
+			<div class="cut" ng-controller="ctrl">
+				<ul id="clicklist">
+					<li class="active"><a href="#day">今日注册量</a></li>
+					<li><a href="#days">一周注册量</a></li>
+					<li><a href="#month">一个月注册量</a></li>
+				</ul>
+				<div class="cut_content_sum">
+					<div class="cut_content">
+						<div class="cut_content_1">
+							<p class="p1">15802012356</p>
+							<div>
+								<span>天天消消乐</span>
+								<span>APP场景</span>
+								<span>短信注册</span>
+							</div>
+							<p class="p2">注册时间 ：2017/7/20 20:00</p>
+						</div>
+						<div class="cut_content_1">
+							<p class="p1">15205481254</p>
+							<div>
+								<span>天天消消乐</span>
+								<span id="ww">H5/web场景</span>
+								<span>闪注注册</span>
+							</div>
+							<p class="p2">注册时间 ：2017/7/20 20:00</p>
+						</div>
+						<div class="cut_content_1">
+							<p class="p1">15802012356</p>
+							<div>
+								<span>天天消消乐</span>
+								<span>APP场景</span>
+								<span>短信注册</span>
+							</div>
+							<p class="p2">注册时间 ：2017/7/20 20:00</p>
+						</div>
+					</div>
+					<div class="cut_content">
+						<div class="cut_content_1">
+							<p class="p1">15802012356</p>
+							<div>
+								<span>天天消消乐</span>
+								<span>APP场景</span>
+								<span>短信注册</span>
+							</div>
+							<p class="p2">注册时间 ：2017/7/20 20:00</p>
+						</div>
+						<div class="cut_content_1">
+							<p class="p1">15345012356</p>
+							<div>
+								<span>天天消消乐</span>
+								<span>场景</span>
+								<span>短信注册</span>
+							</div>
+							<p class="p2">注册时间 ：2017/7/20 20:00</p>
+						</div>
+						<div class="cut_content_1">
+							<p class="p1">15802012356</p>
+							<div>
+								<span>天天消消乐</span>
+								<span>APP场景</span>
+								<span>短信注册</span>
+							</div>
+							<p class="p2">注册时间 ：2017/7/20 20:00</p>
+						</div>
+					</div>
+					<div class="cut_content">
+						<div class="cut_content_1">
+							<p class="p1">15802012356</p>
+							<div>
+								<span>天天消消乐</span>
+								<span>APP场景</span>
+								<span>短信注册</span>
+							</div>
+							<p class="p2">注册时间 ：2017/7/20 20:00</p>
+						</div>
+						<div class="cut_content_1">
+							<p class="p1">15802012356</p>
+							<div>
+								<span>天天消消乐</span>
+								<span>APP场景</span>
+								<span>短信注册</span>
+							</div>
+							<p class="p2">注册时间 ：2017/7/20 20:00</p>
+						</div>
+						<!--<div class="cut_content_1">
+							<p class="p1">15802012356</p>
+							<div>
+								<span>天天消消乐</span>
+								<span>APP场景</span>
+								<span>短信注册</span>
+							</div>
+							<p class="p2">注册时间 ：2017/7/20 20:00</p>
+						</div>-->
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="alert_bg">
+			<div class="bg_zong">
+				<div class="bg_quan">
+					<div class="bg_quan_top">
+						全部
+					</div>
+					<div class="bg_quan_cent">
+						<div class="bg_quan_cent1">
+							<hr />
+							<p>应用场景</p>
+							<hr />
+						</div>
+						<div class="bg_quan_cent2">
+							<div>
+								<a href="#">APP</a>
+							</div>
+							<div>
+								<a href="#">H5/web</a>
+							</div>
+						</div>
+					</div>
+					<div class="bg_quan_bottom">
+						<div class="bg_quan_bottom1">
+							<hr />
+							<p>注册方式</p>
+							<hr />
+						</div>
+						<div class="bg_quan_bottom2">
+							<div>
+								<a href="#">闪购</a>
+							</div>
+							<div>
+								<a href="#">短信</a>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</body>
+	<!--<script src="js/angular.min.js"></script>-->
+	<!--<script src="js/angular-route1.4.5.js"></script>-->
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript">
+		
+		//上边切换
+		$(".head_con").click(function(){
+			$(".alert_bg").stop().toggle();
+			$(".bg_zong").stop().slideDown();
+		})
+		$(".alert_bg").click(function(){
+			$(".bg_zong").stop().slideToggle();
+			$(".alert_bg").stop().hide();
+		})
+		
+		//内容切换
+		$("#clicklist li").click(function(){
+			var index = $(this).index()
+			$(".cut_content").eq(index).fadeIn().siblings().hide()
+			$(this).addClass("active").siblings().removeClass()
+		})
+		
+	</script>
+</html>
